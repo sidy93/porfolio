@@ -1,0 +1,33 @@
+*{
+   box-sizing: border-box;
+}
+
+body html{
+    background-color: white;
+    color: rgba(0, 0, 0, .50);
+    margin: 0;
+    font-size: 14px;
+    font-family: Medium sans-serif;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+
+}
+.topbar nav a {
+
+    float: right;
+    padding: 0 19px;
+ 
+}
+
+.topbar picture{
+    float: left;
+}
+
