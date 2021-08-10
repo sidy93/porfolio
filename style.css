@@ -1,33 +1,53 @@
 *{
    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
 }
 
-body html{
-    background-color: white;
+body {
+  
     color: rgba(0, 0, 0, .50);
-    margin: 0;
+   
     font-size: 14px;
-    font-family: Medium sans-serif;
+    font-family: 'Roboto' sans-serif;
     font-weight: 500;
     line-height: 1.8;
+    background-color: rgb(145, 139, 139);
 }
-
+a {
+    text-decoration: none;
+}
 .topbar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+     background-color: white;
+     justify-content: space-between;
+     margin: auto;
+     width: 75%;
+     height: 163px;
+
 
 }
-.topbar nav a {
 
-    float: right;
-    padding: 0 19px;
- 
+.topbar nav  ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+   margin: 51px 626px 51px  36px ;
 }
 
-.topbar picture{
-    float: left;
+.topbar nav  ul li a  {
+ color: rgba(0, 0, 0, .80);
+ padding: 12px;
+ font-size: 18px;
+ font-weight: 700;
 }
+.topbar nav ul li a:hover {
+    color: #FFFFFF;
+    background-color: #449DB9;
+    border-radius: 5px;
 
+}
+.picture {
+    margin: 50px 949px 50px 84px ;
+}
