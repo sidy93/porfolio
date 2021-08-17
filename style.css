@@ -7,12 +7,13 @@
 body {
   
     color: rgba(0, 0, 0, .50);
-   
     font-size: 14px;
     font-family: 'Roboto' sans-serif;
     font-weight: 500;
     line-height: 1.8;
     background-color: rgb(145, 139, 139);
+     width: 75%;
+     margin: auto;
 }
 a {
     text-decoration: none;
@@ -23,8 +24,8 @@ a {
      background-color: white;
      justify-content: space-between;
      margin: auto;
-     width: 75%;
-     height: 163px;
+   
+     height: 150px;
 
 
 }
@@ -37,10 +38,10 @@ a {
 }
 
 .topbar nav  ul li a  {
- color: rgba(0, 0, 0, .80);
+ color: rgba(0, 0, 0);
  padding: 12px;
  font-size: 18px;
- font-weight: 700;
+ font-weight: 500;
 }
 .topbar nav ul li a:hover {
     color: #FFFFFF;
@@ -51,3 +52,37 @@ a {
 .picture {
     margin: 50px 949px 50px 84px ;
 }
+.carrosel{
+    display: flex;
+    justify-content: space-between;
+   
+  margin: auto;
+    background:white;
+}
+.title{
+    color: #000000;
+
+    font-weight: bold;
+}
+.name {
+   font-size: 36px;
+}
+
+.title{
+    align-items: center;
+    padding: 200px 500px 148px 46px
+}
+
+.button-cv {
+  background-color: #449DB9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  
+  cursor: pointer;
+}
+   
