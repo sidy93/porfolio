@@ -35,6 +35,7 @@ a {
   align-items: center;
   list-style-type: none;
    margin: 51px 626px 51px  36px ;
+   line-height: 21px;
 }
 
 .topbar nav  ul li a  {
@@ -70,19 +71,34 @@ a {
 
 .title{
     align-items: center;
-    padding: 200px 500px 148px 46px
+    padding: 100px 300px 148px 100px
 }
 
 .button-cv {
   background-color: #449DB9;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 32px;
+  margin: 15px 0;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-  
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, .25);
+ 
 }
+.social ul {
+    list-style-type: none;
+}
+.social {
+ padding: 150px 10px 0 0;
+ 
+}
+.social ul img{
+    width: 50px;
+    height: 50px;
+}
+
+
    
